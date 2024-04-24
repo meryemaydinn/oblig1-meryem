@@ -64,7 +64,7 @@ function BillettBestilling() {
         visBestilling();
 
         $.post("/billett", informasjon, function (data) {
-            visBestilling(data);
+            visBestilling();
         });
     }
     return valid;
@@ -79,7 +79,7 @@ function hentAlleBilletter(){
 
 function visBestilling(data = Bestilling) {
     let ut = "<table><tr><th>Film</th><th>Antall</th><th>Fornavn</th><th>Etternavn</th><th>Telefonnr</th><th>Epost</th></tr>";
-    $.each(data, function(index, B) {
+    $.each(Bestilling, function(index, B) {
         ut += `<tr><td>${B.film}</td><td>${B.antall}</td><td>${B.name}</td><td>${B.surname}</td><td>${B.phone}</td><td>${B.email}</td></tr>`;
     });
     ut += "</table>";

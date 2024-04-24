@@ -16,10 +16,11 @@ public class Oblig1Repository {
     }
 
     public List<Oblig1> hentAlleBilletter() {
-        String sql = "SELECT*FROM Oblig1";
-        List<Oblig1>hentAlle = db.query(sql, new  BeanPropertyRowMapper<>(Oblig1.class));
+        String sql = "SELECT * FROM Oblig1 ORDER BY surname";
+        List<Oblig1> hentAlle = db.query(sql, new BeanPropertyRowMapper<>(Oblig1.class));
         return hentAlle;
     }
+
     public void slettAlleBilletter(){
         String sql = "Delete From Oblig1";
         db.update(sql);
