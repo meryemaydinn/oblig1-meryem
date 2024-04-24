@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Oblig 1</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+<h1>Bestilling av kinobilletter</h1>
+<table>
+    <tr>
+        <td><label for="film">Velg film:</label></td>
+        <td><select id="film" name="film">
+            <option value="" disabled selected>Velg film</option>
+            <option>Film 1</option>
+            <option>Film 2</option>
+            <option>Film 3</option>
+            <option>Film 4</option>
+        </select></td>
+        <td><div id="filmError"></div></td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td>Antall</td>
+        <td><label for="antall"></label><input type="number" id="antall" min="1"></td>
+        <td id="antallError"></td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td>Fornavn</td>
+        <td><label for="name"></label><input type="text" id="name"></td>
+        <td id="nameError"></td>
+    </tr>
+    <tr>
+        <td>Etternavn</td>
+        <td><label for="surname"></label><input type="text" id="surname"></td>
+        <td id="surnameError"></td>
+    </tr>
+    <tr>
+        <td>Telefonnr</td>
+        <td><label for="phone"></label><input type="tel" id="phone" name="phone"></td>
+        <td id="phoneError"></td>
+    </tr>
+    <tr>
+        <td>Epost</td>
+        <td><label for="email"></label><input type="email" id="email"></td>
+        <td id="emailError"></td>
+    </tr>
+
+</table>
+
+<button type="button" onclick = "BillettBestilling()">Kjøp billett</button>
+
+
+<h2>Alle billetter</h2>
+
+
+
+<!-- Viser billettene -->
+<div id="alleBilletter"></div>
+
+<button type="button" id="slettBilletter" onclick="slettBilletter()">Slett alle billettene</button>
+
+<script src="oblig1.js"></script>
+</body>
+</html>
