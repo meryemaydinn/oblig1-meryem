@@ -1,11 +1,15 @@
-Oblig 2
-=======
-OsloMet brukernavn: s371484
+# oblig3
 
-GitHub brukernavn: Saidaydin01
+Oblig 3 webprogrammering
 
-Github repo URL: https://github.com/data1700-v23/oblig-3-Saidaydin01.git
+Oslomet brukernavn: meayd8689
 
-Fullt navn: Muhammed Said Aydin
+GitHub brukernavn: meryemaydinn
 
-Kort beskrivelse av applikasjon (5-10 setninger): Jeg har koblett billet reservasjos formen til h2 console database. alt input som blir skrivet til å registrere billet gir ut tabbel både på frontend og backend i h2 console.
+GitHub repo URL: https://github.com/meryemaydinn/oblig1-meryem.git
+
+Fullt navn: Meryem Azacik
+
+Kort beskrivelse av applikasjon:
+
+Jeg har erstatt arrayet på tjener/server med en tabell i en relasjonsdatabase og nå er bestilling av kinobilletter med databaselagring klar. 
