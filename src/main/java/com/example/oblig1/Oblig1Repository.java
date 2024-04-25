@@ -22,7 +22,7 @@ public class Oblig1Repository {
     }
 
     public void slettAlleBilletter(){
-        String sql = "Delete From Oblig1";
+        String sql = "DELETE FROM Oblig1";
         db.update(sql);
     }
 
