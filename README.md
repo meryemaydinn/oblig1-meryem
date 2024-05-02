@@ -8,6 +8,8 @@ GitHub brukernavn: meryemaydinn
 
 GitHub repo URL: https://github.com/meryemaydinn/oblig1-meryem.git
 
+YouTube link: https://youtu.be/ecA92nKUwlA
+
 Fullt navn: Meryem Azacik
 
 Kort beskrivelse av applikasjon:
