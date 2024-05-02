@@ -78,7 +78,7 @@ function hentAlleBilletter(){
 }
 
 function visBestilling(data = Bestilling) {
-    let ut = "<table><tr><th>Film</th><th>Antall</th><th>Fornavn</th><th>Etternavn</th><th>Telefonnr</th><th>Epost</th></tr>";
+    let ut = "<table class='table table-striped'><tr><th>Film</th><th>Antall</th><th>Fornavn</th><th>Etternavn</th><th>Telefonnr</th><th>Epost</th></tr>";
     $.each(Bestilling, function(index, B) {
         ut += `<tr><td>${B.film}</td><td>${B.antall}</td><td>${B.name}</td><td>${B.surname}</td><td>${B.phone}</td><td>${B.email}</td></tr>`;
     });
