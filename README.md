@@ -6,7 +6,7 @@ Oslomet brukernavn: meayd8689
 
 GitHub brukernavn: meryemaydinn
 
-GitHub repo URL: https://github.com/meryemaydinn/oblig1-meryem.git
+GitHub repo URL: https://github.com/meryemaydinn/oblig3-meryem
 
 YouTube link: https://youtu.be/ecA92nKUwlA
 
